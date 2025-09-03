@@ -92,7 +92,7 @@ def predict_df(df_raw: pd.DataFrame):
         return y_pred, None
 
 # ---------- UI ----------
-st.title("💓 Heart Disease Classifier")
+st.title("💓 CardioRisk AI : Heart Disease Risk Prediction")
 
 with st.expander("ℹ️ Instructions", expanded=True):
     st.markdown("""
